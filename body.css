@@ -1,14 +1,9 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #b5b2b2;
 }
 
 header {
@@ -44,4 +39,11 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 8px;
 }
